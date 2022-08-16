@@ -1,0 +1,73 @@
+.navbar {
+  border-bottom: solid 1px #fafafa;
+  background-color: black !important;
+}
+.socialmedia {
+  display: flex;
+  margin-left: -11%;
+  margin-right: 5%;
+}
+
+.social-link {
+  color: #f5f5f5 !important;
+}
+
+.nav {
+  margin-right: 18%;
+}
+
+.bottom-tab-nav {
+  border-top: solid 1px #EBEBEB;
+}
+
+.navbar-brand {
+  color: #f5f5f5 !important;
+}
+
+.nav-link,
+.bottom-nav-link {
+  color: #ffffff !important;
+}
+
+.bottom-nav-link.active {
+  color: #922c88;
+}
+
+.bottom-tab-label {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    border-bottom: solid 1px #EBEBEB;
+  }
+  ion-icon {
+    color: blue;
+  }
+  .bottom-tab-nav {
+    border-top: solid 1px #EBEBEB;
+  }
+  
+  .fixed-bottom {
+    background-color: black;
+  }
+  .logo-btm {
+    color: white !important;
+  }
+  
+  .nav-link,
+  .bottom-nav-link {
+    color: #dadada !important;
+  }
+  
+  .bottom-nav-link.active {
+    color: #f5f5f5;
+  }
+  
+  .bottom-tab-label {
+    font-size: 12px;
+  }
+  svg:not(:root).svg-inline--fa:hover {
+    color: #dadada !important;
+  }
+}
